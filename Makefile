@@ -7,7 +7,7 @@ LDFLAGS =
 SRC_DIR = src
 INCLUDE_DIR= include
 BUILD_DIR = build
-INSTALL_SCRIPT = ./install.sh
+INSTALL_SCRIPT = script/install.sh
 # Nom de l'exécutable
 TARGET = dep 
 
