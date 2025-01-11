@@ -28,7 +28,7 @@ Before using this generator, ensure your system meets the following requirements
 ### Option 2: Install from source
 1. Clone the project:
      ```bash
-    mv dep /usr/local/bin
+    git clone https://github.com/username/project_name.git
 2. Navigate to the project directory:
     ```bash
     cd project_name
