@@ -39,11 +39,8 @@ void write_in_file(const char * file, const char* data){
 }
 
 void generate_structure_project(){
-    //const char *folders[] = {"src", "include", "sources", "lib"};
-    //const char *files[] = {".gitignore", "README.md", "Makefile"};
-
-    const char *folders[] = {"aa", "bb"};
-    const char *files[] = {"text.txt", "m.md"};
+    const char *folders[] = {"src", "include", "sources", "lib","script","tests"};
+    const char *files[] = {".gitignore", "README.md", "Makefile","LICENCE"};
 
     // Création des dossiers
     for (size_t i = 0; i < sizeof(folders) / sizeof(folders[0]); i++) {
