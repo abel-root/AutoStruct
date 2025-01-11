@@ -9,7 +9,7 @@ INCLUDE_DIR= include
 BUILD_DIR = build
 INSTALL_SCRIPT = ./install.sh
 # Nom de l'exécutable
-TARGET = $(BUILD_DIR)/dep 
+TARGET = dep 
 
 # Fichiers source et objets
 SRCS = $(wildcard $(SRC_DIR)/*.c)  # on charge la liste des fichiers .c dans le repertoire src 
@@ -38,7 +38,7 @@ clear :
 	clear 
 #Nettoyer
 clean : 
-	rm -rf $(BUILD_DIR) $(TARGET) exclude text.txt
+	rm -rf $(BUILD_DIR) $(TARGET) 
 
 
 # Nettoyage complet

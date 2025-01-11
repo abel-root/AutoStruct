@@ -20,13 +20,11 @@
 
 
 int main(){
-    int res2= create_file("text.txt"); 
-    printf("file : %d \n", res2);
-
-    write_in_file("text.txt","Welcome Kouakou !"); 
-    write_in_file("text.txt","Croix en DIEU stp. "); 
-    write_in_file("text.txt","Jesus t'aime !"); 
-    write_in_file("text.txt","Santifie toi !"); 
-
+    
+    //write_in_file("text.txt","Welcome Kouakou !"); 
+    //write_in_file("text.txt","Croix en DIEU stp. "); 
+    //write_in_file("text.txt","Jesus t'aime !"); 
+    //write_in_file("text.txt","Santifie toi !"); 
+    generate_structure_project(); 
     return 0; 
 }

@@ -38,3 +38,28 @@ void write_in_file(const char * file, const char* data){
 
 }
 
+void generate_structure_project(){
+    //const char *folders[] = {"src", "include", "sources", "lib"};
+    //const char *files[] = {".gitignore", "README.md", "Makefile"};
+
+    const char *folders[] = {"aa", "bb"};
+    const char *files[] = {"text.txt", "m.md"};
+
+    // Création des dossiers
+    for (size_t i = 0; i < sizeof(folders) / sizeof(folders[0]); i++) {
+        
+        if (create_folder(folders[i]) != 0) {
+            fprintf(stderr, "Error during creation of the folder: %s\n", folders[i]);
+        }
+        
+    }
+
+    // Création des fichiers
+    for (size_t i = 0; i < sizeof(files) / sizeof(files[0]); i++) {
+        
+        if (create_file(files[i]) != 0) {
+            fprintf(stderr, "Error during creation of the file: %s\n", files[i]);
+        }
+         
+    }
+}

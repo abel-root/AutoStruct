@@ -40,4 +40,7 @@ int create_file(const char * fileName);
 */
 void write_in_file(const char * file, const char * data);
 
+void generate_structure_project();
+
+
 #endif
